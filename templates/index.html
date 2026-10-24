@@ -1,1 +1,13 @@
-
+<!DOCTYPE html>
+<html>
+<head><title>Fake News Detector</title></head>
+<body style="text-align:center; font-family: sans-serif;">
+    <h2>Fake News Detection</h2>
+    <br>
+    <form action="predict" method="post">
+        <textarea name="news" rows="8" cols="60" placeholder="Yaha news paste kar...">{{ news }}</textarea><br><br>
+        <button type="submit">Check</button>
+    </form>
+    <h3>{{ result }}</h3>
+        </body>
+        </html>
